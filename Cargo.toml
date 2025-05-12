@@ -1,0 +1,17 @@
+[package]
+name = "naive_mip"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dicom-object = "0.8.1"
+dicom-dictionary-std = "0.8.0"
+dicom-pixeldata = "0.8.1"
+ndarray = "*"
+bytemuck = "1.22.0"
+gl33 = "0.2.1"
+beryllium = "0.13.3"
+image = "0.25.6"
+glam = "0.30.3"
